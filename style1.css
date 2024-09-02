@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.image{
+    height: 30%;
+    width: 100%;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+    background: url(img/back.jpeg) no-repeat center center;
+    background-size: cover;
+}
+.ieee-benefits {
+    margin: 20px 0;
+}
+
+.benefit {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.benefit h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.benefit p {
+    color: #555;
+    line-height: 1.6;
+    padding: 0 15px 15px;
+}
+.interests-goals {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.interests-goals header h2 {
+    color:white;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
